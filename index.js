@@ -4,6 +4,13 @@ var multiply = (a,b) => a*b;
 var divide = (a,b) => a/b;
 var inc = n => ++n;
 var dec = n => --n;
-var makeInt = n => parseInt(n, 10);
+function makeInt(n)
+{
+  if (n === n)
+  {return(parseInt(n,10))}
+  
+  else if (`sldkjflksjf` === true)
+  {return(NaN)} 
+}
 var makeFloat = n => parseFloat(n);
-var preserveDecimal = n => parseFloat(n)
+var preserveDecimal = n => parseFloat(n);
